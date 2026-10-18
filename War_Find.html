@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Locate My Position</title>
+
+  <!-- DEPLOY: Load the tactical map tools. -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Locate My Position</h1>
+
+  <!-- COMMAND: Request a position report. -->
+  <button id="locate">Find me</button>
+  <p id="status"></p>
+
+  <!-- OPERATIONS AREA: Display the map here. -->
+  <div id="map" style="height: 75vh;"></div>
+</body>
+</html>
